@@ -1,0 +1,26 @@
+.bg{
+    background-color: #6c1d4c;
+}
+.content{
+    width:600px;
+    margin:auto;
+    color:#fff;
+    border: 5px solid #7b345e;
+}
+.subcontent{
+    background-color: #fff;
+    color:#5c5c5c;
+    
+}
+.date{
+    color:#333333;
+    text-align: end;
+    padding-right: 10px;
+}
+ul{
+    color:#7b345e;
+    display:inline-block;
+}
+.offers{
+    text-align: end;
+}

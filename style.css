@@ -1,37 +1,34 @@
-body{
-    width:25%;
-    margin:auto;
-    background-color: #f4f8fb;
-    border: 2px solid #e0e8eb;
-    border-radius:5px;
+.banner{
+    background-color: #0948b3;
 }
-p{
+h1,p{
+    color:#fff;
+}
+.card{
+    border:none;
+}
+img{
+    max-width: 100%;
+}
+.support{
+    background-color: #0948b3;
+}
+.serv ,.serv2, .serv3,.serv4{
+    border:1px solid #fff;
+    background-color: #fff;
+    width:250px;
+    height:270px;
+    border-radius: 5px;
+    margin:10px;
+}
+.service{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tools{
+    background-color: #fff;
     text-align: center;
-    font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 10px 6px 7px 6px;
 }
-form label,div{
-    margin-left: 10px;
-}
-input{
-margin-top: 10px;
-margin-bottom: 10px;
-padding: 4px 0px 4px 2px;
-}
-button{
-    width:70%;
-    background-color: #555add;
-    color: #fff;
-    text-align: center;
-    padding: 8px 0px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-}
-label{
-    font-weight: bold;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+.tools p{
+    color:grey;
 }
